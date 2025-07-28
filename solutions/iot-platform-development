@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Platform Development - Purple Techno Solutions</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo animate-fade-in">
+                <img src="https://via.placeholder.com/180x50/7C3AED/FFFFFF?text=Purple+Tech" alt="Purple Techno Solutions">
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../products.html" class="nav-link">Products</a></li>
+                    <li><a href="../solutions.html" class="nav-link active">Solutions</a></li>
+                    <li><a href="../apps.html" class="nav-link">Apps</a></li>
+                    <li><a href="../shop.html" class="nav-link">Shop</a></li>
+                    <li><a href="../about.html" class="nav-link">About Us</a></li>
+                    <li><a href="../blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="../contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section style="background: var(--bg-dark); padding: 6rem 0 2rem; color: white;">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html" style="color: rgba(255,255,255,0.7);">Home</a>
+                <span style="margin: 0 0.5rem; color: rgba(255,255,255,0.5);">/</span>
+                <a href="../solutions.html" style="color: rgba(255,255,255,0.7);">Solutions</a>
+                <span style="margin: 0 0.5rem; color: rgba(255,255,255,0.5);">/</span>
+                <span style="color: white;">IoT Platform Development</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Hero -->
+    <section class="solution-hero" style="padding: 4rem 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div class="solution-hero-content">
+                <div class="solution-hero-text">
+                    <div class="solution-icon-large">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h1>IoT Platform Development</h1>
+                    <p class="hero-description">
+                        Build comprehensive IoT ecosystems that connect devices, analyze data, and automate processes. 
+                        Our platform solutions enable real-time monitoring, predictive analytics, and seamless device management.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large" onclick="window.location.href='../contact.html'">
+                            <span>Schedule Consultation</span>
+                            <i class="fas fa-calendar"></i>
+                        </button>
+                        <button class="btn btn-secondary btn-large" onclick="window.location.href='../solutions.html'">
+                            <span>View All Solutions</span>
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="solution-hero-image">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="IoT Platform Development">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Details -->
+    <section class="solution-details" style="padding: 4rem 0; background: white;">
+        <div class="container">
+            <div class="solution-content-grid">
+                <div class="solution-main">
+                    <h2>Complete IoT Ecosystem Solutions</h2>
+                    <p>
+                        Our IoT platform development services create intelligent, connected environments that transform how 
+                        businesses operate. From sensor integration to cloud analytics, we build scalable platforms that 
+                        grow with your needs and deliver actionable insights from your connected devices.
+                    </p>
+
+                    <h3>Platform Components</h3>
+                    <div class="components-grid">
+                        <div class="component-card">
+                            <div class="component-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <div class="component-content">
+                                <h4>Device Management</h4>
+                                <p>Centralized control for device provisioning, monitoring, and firmware updates across your entire IoT fleet.</p>
+                            </div>
+                        </div>
+                        <div class="component-card">
+                            <div class="component-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="component-content">
+                                <h4>Data Analytics</h4>
+                                <p>Real-time processing and analysis of sensor data with machine learning-powered insights.</p>
+                            </div>
+                        </div>
+                        <div class="component-card">
+                            <div class="component-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="component-content">
+                                <h4>Cloud Integration</h4>
+                                <p>Seamless integration with major cloud platforms for scalable data storage and processing.</p>
+                            </div>
+                        </div>
+                        <div class="component-card">
+                            <div class="component-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="component-content">
+                                <h4>Mobile Dashboard</h4>
+                                <p>Native mobile applications for remote monitoring and control of your IoT devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="solution-sidebar">
+                    <div class="sidebar-card">
+                        <h3>Platform Features</h3>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Real-time device monitoring</li>
+                            <li><i class="fas fa-check"></i> Automated data collection</li>
+                            <li><i class="fas fa-check"></i> Predictive maintenance</li>
+                            <li><i class="fas fa-check"></i> Custom dashboard creation</li>
+                            <li><i class="fas fa-check"></i> API-first architecture</li>
+                            <li><i class="fas fa-check"></i> Enterprise security</li>
+                            <li><i class="fas fa-check"></i> Multi-protocol support</li>
+                            <li><i class="fas fa-check"></i> Edge computing integration</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Industry Applications</h3>
+                        <ul class="industry-list">
+                            <li>Smart Manufacturing</li>
+                            <li>Agriculture & Farming</li>
+                            <li>Smart Cities</li>
+                            <li>Healthcare & Medical</li>
+                            <li>Energy & Utilities</li>
+                            <li>Transportation & Logistics</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-card cta-card">
+                        <h3>Ready to Build Your IoT Platform?</h3>
+                        <p>Let's discuss your IoT requirements and create a custom platform solution.</p>
+                        <button class="btn btn-primary btn-full" onclick="window.location.href='../contact.html'">
+                            <span>Get Free Consultation</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="use-cases" style="padding: 4rem 0; background: var(--bg-secondary);">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem; color: var(--text-primary); font-size: 2.5rem;">IoT Use Cases</h2>
+            <div class="use-cases-grid">
+                <div class="use-case-item">
+                    <div class="use-case-image">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Smart Factory">
+                        <div class="use-case-overlay">
+                            <h4>Smart Factory</h4>
+                            <p>Automated production monitoring and quality control</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="use-case-item">
+                    <div class="use-case-image">
+                        <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Smart Agriculture">
+                        <div class="use-case-overlay">
+                            <h4>Smart Agriculture</h4>
+                            <p>Precision farming with soil and weather monitoring</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="use-case-item">
+                    <div class="use-case-image">
+                        <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Smart Building">
+                        <div class="use-case-overlay">
+                            <h4>Smart Building</h4>
+                            <p>Energy management and security automation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Solutions -->
+    <section class="related-solutions" style="padding: 4rem 0; background: white;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem; color: var(--text-primary);">Related Solutions</h2>
+            <div class="solutions-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div class="solution-card" onclick="window.location.href='mobile-web-development'">
+                    <div class="solution-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="solution-content">
+                        <h3>Mobile & Web Development</h3>
+                        <p>Custom mobile and web applications for IoT device control and monitoring.</p>
+                    </div>
+                </div>
+
+                <div class="solution-card" onclick="window.location.href='data-analytics-ai'">
+                    <div class="solution-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="solution-content">
+                        <h3>Data Analytics & AI</h3>
+                        <p>Advanced analytics and machine learning for IoT data insights.</p>
+                    </div>
+                </div>
+
+                <div class="solution-card" onclick="window.location.href='cloud-infrastructure'">
+                    <div class="solution-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="solution-content">
+                        <h3>Cloud Infrastructure</h3>
+                        <p>Scalable cloud solutions for IoT data storage and processing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="https://via.placeholder.com/180x50/7C3AED/FFFFFF?text=Purple+Tech" alt="Purple Techno Solutions">
+                    </div>
+                    <p>Leading the future of IoT technology with innovative solutions that transform businesses worldwide.</p>
+                    <div class="social-links">
+                        <a href="https://maps.google.com" class="social-link" target="_blank">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </a>
+                        <a href="https://instagram.com" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://facebook.com" class="social-link" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../products.html">Products</a></li>
+                        <li><a href="../solutions.html">Solutions</a></li>
+                        <li><a href="../apps.html">Apps</a></li>
+                        <li><a href="../shop.html">Shop</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../blog.html">Blog</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@purpletechno.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Innovation City</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Purple Techno Solutions. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    
+    <style>
+        .solution-hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .solution-icon-large {
+            width: 100px;
+            height: 100px;
+            background: var(--gradient-primary);
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .solution-icon-large i {
+            font-size: 3rem;
+            color: white;
+        }
+
+        .solution-hero h1 {
+            font-size: 3rem;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .solution-hero-image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .solution-content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+        }
+
+        .solution-main h2 {
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .solution-main h3 {
+            color: var(--text-primary);
+            margin: 2.5rem 0 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .components-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .component-card {
+            background: var(--bg-secondary);
+            padding: 2rem;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .component-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .component-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--gradient-primary);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .component-icon i {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .component-content h4 {
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .component-content p {
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        .sidebar-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 2rem;
+        }
+
+        .sidebar-card h3 {
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-list, .industry-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0;
+            color: var(--text-secondary);
+        }
+
+        .feature-list i {
+            color: var(--primary-color);
+        }
+
+        .industry-list li {
+            padding: 0.5rem 0;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .cta-card {
+            background: var(--gradient-primary);
+            color: white;
+        }
+
+        .cta-card h3 {
+            color: white;
+        }
+
+        .cta-card p {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .btn-full {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .use-cases-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .use-case-item {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+        }
+
+        .use-case-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .use-case-image {
+            position: relative;
+            height: 250px;
+            overflow: hidden;
+        }
+
+        .use-case-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .use-case-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+            color: white;
+            padding: 2rem;
+            transform: translateY(50%);
+            transition: all 0.3s ease;
+        }
+
+        .use-case-item:hover .use-case-overlay {
+            transform: translateY(0);
+        }
+
+        .use-case-item:hover .use-case-image img {
+            transform: scale(1.1);
+        }
+
+        .use-case-overlay h4 {
+            margin-bottom: 0.5rem;
+            font-size: 1.25rem;
+        }
+
+        .use-case-overlay p {
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .solution-hero-content,
+            .solution-content-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .solution-hero h1 {
+                font-size: 2rem;
+            }
+            
+            .components-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

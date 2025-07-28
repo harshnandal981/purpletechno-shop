@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Infrastructure - Purple Techno Solutions</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo animate-fade-in">
+                <img src="https://via.placeholder.com/180x50/7C3AED/FFFFFF?text=Purple+Tech" alt="Purple Techno Solutions">
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../products.html" class="nav-link">Products</a></li>
+                    <li><a href="../solutions.html" class="nav-link active">Solutions</a></li>
+                    <li><a href="../apps.html" class="nav-link">Apps</a></li>
+                    <li><a href="../shop.html" class="nav-link">Shop</a></li>
+                    <li><a href="../about.html" class="nav-link">About Us</a></li>
+                    <li><a href="../blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="../contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section style="background: var(--bg-dark); padding: 6rem 0 2rem; color: white;">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html" style="color: rgba(255,255,255,0.7);">Home</a>
+                <span style="margin: 0 0.5rem; color: rgba(255,255,255,0.5);">/</span>
+                <a href="../solutions.html" style="color: rgba(255,255,255,0.7);">Solutions</a>
+                <span style="margin: 0 0.5rem; color: rgba(255,255,255,0.5);">/</span>
+                <span style="color: white;">Cloud Infrastructure</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Hero -->
+    <section class="solution-hero" style="padding: 4rem 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div class="solution-hero-content">
+                <div class="solution-hero-text">
+                    <div class="solution-icon-large">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h1>Cloud Infrastructure</h1>
+                    <p class="hero-description">
+                        Optimize IT resources with scalable, secure, and efficient cloud infrastructure solutions. 
+                        Transform your business operations with proactive management and technology integration.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large" onclick="window.location.href='../contact.html'">
+                            <span>Schedule Consultation</span>
+                            <i class="fas fa-calendar"></i>
+                        </button>
+                        <button class="btn btn-secondary btn-large" onclick="window.location.href='../solutions.html'">
+                            <span>View All Solutions</span>
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="solution-hero-image">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Cloud Infrastructure">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Details -->
+    <section class="solution-details" style="padding: 4rem 0; background: white;">
+        <div class="container">
+            <div class="solution-content-grid">
+                <div class="solution-main">
+                    <h2>Comprehensive Cloud Infrastructure Services</h2>
+                    <p>
+                        Our Cloud Infrastructure services deliver robust solutions to optimize your IT operations. From 
+                        migration and deployment to ongoing management, we ensure your infrastructure is secure, 
+                        reliable, and cost-effective.
+                    </p>
+
+                    <h3>Service Offerings</h3>
+                    <div class="offerings-grid">
+                        <div class="offering-item">
+                            <div class="offering-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <div class="offering-content">
+                                <h4>Infrastructure as a Service (IaaS)</h4>
+                                <p>Flexible, on-demand computing resources tailored to meet your needs.</p>
+                            </div>
+                        </div>
+                        <div class="offering-item">
+                            <div class="offering-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <div class="offering-content">
+                                <h4>Cloud Migration</h4>
+                                <p>Smooth transition of applications and data to the cloud with minimal disruption.</p>
+                            </div>
+                        </div>
+                        <div class="offering-item">
+                            <div class="offering-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <div class="offering-content">
+                                <h4>Managed Services</h4>
+                                <p>Continuous monitoring, support, and optimization of your cloud environment.</p>
+                            </div>
+                        </div>
+                        <div class="offering-item">
+                            <div class="offering-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="offering-content">
+                                <h4>Cloud Security</h4>
+                                <p>Comprehensive security strategies to protect your cloud assets.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="solution-sidebar">
+                    <div class="sidebar-card">
+                        <h3>Key Benefits</h3>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check"></i> Scalable and flexible IT resources</li>
+                            <li><i class="fas fa-check"></i> Enhanced security and compliance</li>
+                            <li><i class="fas fa-check"></i> Cost reduction and efficiency improvement</li>
+                            <li><i class="fas fa-check"></i> Access to the latest technologies</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Industries Served</h3>
+                        <ul class="industry-list">
+                            <li>Healthcare & Life Sciences</li>
+                            <li>Education & E-learning</li>
+                            <li>Financial Services</li>
+                            <li>Manufacturing & Supply Chain</li>
+                            <li>Retail & E-commerce</li>
+                            <li>Telecommunications</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-card cta-card">
+                        <h3>Maximize Your Cloud Potential</h3>
+                        <p>Contact us to explore how our cloud services can drive efficiency in your organization.</p>
+                        <button class="btn btn-primary btn-full" onclick="window.location.href='../contact.html'">
+                            <span>Get Free Consultation</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section class="case-studies" style="padding: 4rem 0; background: var(--bg-secondary);">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem; color: var(--text-primary); font-size: 2.5rem;">Cloud Transformation Success</h2>
+            <div class="case-studies-grid">
+                <div class="case-study-item">
+                    <div class="case-study-image">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Global Retail Cloud">
+                        <div class="case-study-overlay">
+                            <h4>Global Retail Cloud</h4>
+                            <p>Scalable retail platform supporting millions of transactions daily.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-study-item">
+                    <div class="case-study-image">
+                        <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Healthcare Cloud Deployment">
+                        <div class="case-study-overlay">
+                            <h4>Healthcare Cloud Deployment</h4>
+                            <p>Ensuring secure data access and storage for healthcare providers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-study-item">
+                    <div class="case-study-image">
+                        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="FinTech Cloud Solutions">
+                        <div class="case-study-overlay">
+                            <h4>FinTech Cloud Solutions</h4>
+                            <p>Optimized financial services delivery through cloud automation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="https://via.placeholder.com/180x50/7C3AED/FFFFFF?text=Purple+Tech" alt="Purple Techno Solutions">
+                    </div>
+                    <p>Leading the future of IoT technology with innovative solutions that transform businesses worldwide.</p>
+                    <div class="social-links">
+                        <a href="https://maps.google.com" class="social-link" target="_blank">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </a>
+                        <a href="https://instagram.com" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://facebook.com" class="social-link" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../products.html">Products</a></li>
+                        <li><a href="../solutions.html">Solutions</a></li>
+                        <li><a href="../apps.html">Apps</a></li>
+                        <li><a href="../shop.html">Shop</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../blog.html">Blog</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@purpletechno.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Innovation City</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Purple Techno Solutions. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    
+    <style>
+        .solution-hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .solution-icon-large {
+            width: 100px;
+            height: 100px;
+            background: var(--gradient-primary);
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .solution-icon-large i {
+            font-size: 3rem;
+            color: white;
+        }
+
+        .solution-hero h1 {
+            font-size: 3rem;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .solution-hero-image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .solution-content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+        }
+
+        .solution-main h2 {
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .solution-main h3 {
+            color: var(--text-primary);
+            margin: 2.5rem 0 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .offerings-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .offering-item {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .offering-item:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .offering-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--gradient-primary);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .offering-icon i {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .sidebar-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 2rem;
+        }
+
+        .sidebar-card h3 {
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .benefits-list, .industry-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .benefits-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0;
+            color: var(--text-secondary);
+        }
+
+        .benefits-list i {
+            color: var(--primary-color);
+        }
+
+        .industry-list li {
+            padding: 0.5rem 0;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .cta-card {
+            background: var(--gradient-primary);
+            color: white;
+        }
+
+        .cta-card h3 {
+            color: white;
+        }
+
+        .cta-card p {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .btn-full {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .case-studies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .case-study-item {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+        }
+
+        .case-study-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .case-study-image {
+            position: relative;
+            height: 250px;
+            overflow: hidden;
+        }
+
+        .case-study-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .case-study-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+            color: white;
+            padding: 2rem;
+            transform: translateY(50%);
+            transition: all 0.3s ease;
+        }
+
+        .case-study-item:hover .case-study-overlay {
+            transform: translateY(0);
+        }
+
+        .case-study-item:hover .case-study-image img {
+            transform: scale(1.1);
+        }
+
+        .case-study-overlay h4 {
+            margin-bottom: 0.5rem;
+            font-size: 1.25rem;
+        }
+
+        .case-study-overlay p {
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .solution-hero-content,
+            .solution-content-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .solution-hero h1 {
+                font-size: 2rem;
+            }
+            
+            .offerings-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
