@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions - Purple Techno Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo animate-fade-in">
+                <img src="images/ptslogo.png" alt="Purple Techno Solutions">
+            </div>
+            <span class="nav-brand">Purple Technologies</span>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="solutions.html" class="nav-link active">Solutions</a></li>
+                    <li><a href="apps.html" class="nav-link">Apps</a></li>
+                    <li><a href="shop.html" class="nav-link">Shop</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh; padding-top: 6rem;">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content" style="grid-template-columns: 1fr; text-align: center;">
+                <div class="hero-text animate-slide-up">
+                    <h1 class="hero-title">
+                        Our <span class="gradient-text">Solutions</span>
+                    </h1>
+                    <p class="hero-description">
+                        Comprehensive IoT solutions tailored to transform your business operations and drive digital innovation
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Grid Section -->
+    <section class="solutions-section" style="padding: 4rem 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+                <h2 style="color: var(--text-primary); font-size: 2.5rem; margin-bottom: 1rem;">Our Digital Solutions</h2>
+                <p style="color: var(--text-secondary); font-size: 1.2rem; max-width: 600px; margin: 0 auto;">Transform your business with our comprehensive suite of innovative technology solutions designed to drive growth and efficiency.</p>
+            </div>
+            <div class="solutions-grid">
+                <!-- Mobile & Web Development -->
+                <div class="solution-card" onclick="openSolutionDetail('mobile-web-development')">
+                    <div class="solution-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Mobile & Web Development">
+                        <div class="solution-overlay">
+                            <div class="solution-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-content">
+                        <h3>Mobile & Web Development</h3>
+                        <p>Custom mobile and web applications built with cutting-edge technologies to enhance user experience and business efficiency.</p>
+                        <ul class="solution-features">
+                            <li>Cross-platform mobile apps</li>
+                            <li>Responsive web applications</li>
+                            <li>Progressive Web Apps (PWA)</li>
+                            <li>API integration and development</li>
+                        </ul>
+                        <div class="solution-action">
+                            <button class="btn btn-primary">
+                                <span>Learn More</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IoT Platform Development -->
+                <div class="solution-card" onclick="openSolutionDetail('iot-platform-development')">
+                    <div class="solution-image">
+                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="IoT Platform Development">
+                        <div class="solution-overlay">
+                            <div class="solution-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-content">
+                        <h3>IoT Platform Development</h3>
+                        <p>End-to-end IoT platform solutions for device management, data analytics, and real-time monitoring across various industries.</p>
+                        <ul class="solution-features">
+                            <li>Device connectivity and management</li>
+                            <li>Real-time data processing</li>
+                            <li>Cloud-based infrastructure</li>
+                            <li>Scalable architecture design</li>
+                        </ul>
+                        <div class="solution-action">
+                            <button class="btn btn-primary">
+                                <span>Learn More</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Analytics & AI -->
+                <div class="solution-card" onclick="openSolutionDetail('data-analytics-ai')">
+                    <div class="solution-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Data Analytics & AI">
+                        <div class="solution-overlay">
+                            <div class="solution-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-content">
+                        <h3>Data Analytics & AI</h3>
+                        <p>Transform your data into actionable insights with advanced analytics, machine learning, and artificial intelligence solutions.</p>
+                        <ul class="solution-features">
+                            <li>Predictive analytics</li>
+                            <li>Machine learning models</li>
+                            <li>Business intelligence dashboards</li>
+                            <li>Automated reporting systems</li>
+                        </ul>
+                        <div class="solution-action">
+                            <button class="btn btn-primary">
+                                <span>Learn More</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud Infrastructure -->
+                <div class="solution-card" onclick="openSolutionDetail('cloud-infrastructure')">
+                    <div class="solution-image">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Cloud Infrastructure">
+                        <div class="solution-overlay">
+                            <div class="solution-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-content">
+                        <h3>Cloud Infrastructure</h3>
+                        <p>Scalable and secure cloud solutions to optimize your IT infrastructure and reduce operational costs.</p>
+                        <ul class="solution-features">
+                            <li>Cloud migration services</li>
+                            <li>Infrastructure as a Service (IaaS)</li>
+                            <li>DevOps implementation</li>
+                            <li>Security and compliance</li>
+                        </ul>
+                        <div class="solution-action">
+                            <button class="btn btn-primary">
+                                <span>Learn More</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cybersecurity Solutions -->
+                <div class="solution-card" onclick="openSolutionDetail('cybersecurity-solutions')">
+                    <div class="solution-image">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Cybersecurity Solutions">
+                        <div class="solution-overlay">
+                            <div class="solution-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-content">
+                        <h3>Cybersecurity Solutions</h3>
+                        <p>Comprehensive security solutions to protect your digital assets and ensure compliance with industry standards.</p>
+                        <ul class="solution-features">
+                            <li>Threat assessment and monitoring</li>
+                            <li>Security audit and compliance</li>
+                            <li>Incident response planning</li>
+                            <li>Employee security training</li>
+                        </ul>
+                        <div class="solution-action">
+                            <button class="btn btn-primary">
+                                <span>Learn More</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digital Transformation -->
+                <div class="solution-card" onclick="openSolutionDetail('digital-transformation')">
+                    <div class="solution-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Digital Transformation">
+                        <div class="solution-overlay">
+                            <div class="solution-icon">
+                                <i class="fas fa-digital-tachograph"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution-content">
+                        <h3>Digital Transformation</h3>
+                        <p>Complete digital transformation services to modernize your business processes and enhance operational efficiency.</p>
+                        <ul class="solution-features">
+                            <li>Process automation</li>
+                            <li>Legacy system modernization</li>
+                            <li>Digital strategy consulting</li>
+                            <li>Change management support</li>
+                        </ul>
+                        <div class="solution-action">
+                            <button class="btn btn-primary">
+                                <span>Learn More</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" style="padding: 4rem 0; background: var(--gradient-bg); color: white;">
+        <div class="container">
+            <div class="cta-content" style="text-align: center;">
+                <h2 style="color: white; margin-bottom: 1rem;">Ready to Transform Your Business?</h2>
+                <p style="font-size: 1.25rem; margin-bottom: 2rem; color: rgba(255,255,255,0.9);">
+                    Let's discuss how our solutions can help you achieve your digital transformation goals.
+                </p>
+                <button class="btn btn-primary btn-large" onclick="window.location.href='contact.html'">
+                    <span>Schedule Consultation</span>
+                    <i class="fas fa-calendar"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text animate-slide-left">
+                    <h3>Stay Updated with Purple Tech</h3>
+                    <p>Get the latest insights on IoT trends, technology updates, and industry news delivered to your inbox.</p>
+                </div>
+                <div class="newsletter-form animate-slide-right">
+                    <form class="subscription-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email address" required>
+                            <button type="submit" class="btn btn-primary">
+                                <span>Subscribe</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/ptslogo.png" alt="Purple Techno Solutions">
+                    </div>
+                    <p>Leading the future of IoT technology with innovative solutions that transform businesses worldwide.</p>
+                    <div class="social-links">
+                        <a href="https://maps.google.com" class="social-link" target="_blank">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </a>
+                        <a href="https://instagram.com" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://facebook.com" class="social-link" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="apps.html">Apps</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@purpletechno.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Innovation City</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Purple Techno Solutions. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <style>
+        .solutions-section {
+            min-height: 70vh;
+        }
+
+        .solutions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .solution-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .solution-image {
+            position: relative;
+            height: 250px;
+            overflow: hidden;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .solution-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .solution-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(124, 58, 237, 0.8) 0%, rgba(139, 92, 246, 0.8) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .solution-card:hover .solution-overlay {
+            opacity: 1;
+        }
+
+        .solution-card:hover .solution-image img {
+            transform: scale(1.1);
+        }
+
+        .solution-content {
+            padding: 2rem;
+        }
+
+        .solution-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--gradient-primary);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .solution-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .solution-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .solution-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .solution-card:hover .solution-icon {
+            transform: scale(1.1) rotate(5deg);
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .solution-icon i {
+            font-size: 2rem;
+            color: white;
+        }
+
+        .solution-content h3 {
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .solution-content > p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .solution-features {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 2rem;
+        }
+
+        .solution-features li {
+            padding: 0.5rem 0;
+            color: var(--text-secondary);
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .solution-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        .solution-action {
+            margin-top: auto;
+        }
+
+        .btn-large {
+            padding: 1.25rem 2.5rem;
+            font-size: 1.1rem;
+        }
+
+        .cta-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .solutions-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .solution-card {
+                padding: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .solution-card {
+                padding: 1.5rem;
+            }
+            
+            .solution-content h3 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+
+    <script>
+        function openSolutionDetail(solutionSlug) {
+            window.location.href = `solutions/${solutionSlug}.html`;
+        }
+    </script>
+</body>
+</html>
